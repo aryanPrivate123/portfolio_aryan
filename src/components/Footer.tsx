@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
           </div>
 
           {/* Social & Contact Links */}
-          <div className="flex flex-wrap items-center gap-6 text-xs sm:text-sm font-semibold tracking-wider uppercase text-white/70">
+          <div className="flex flex-wrap items-center gap-5 text-xs sm:text-sm font-semibold tracking-wider uppercase text-white/70">
             <a
               href="https://github.com/Eclipse1911"
               target="_blank"
@@ -37,6 +37,15 @@ export const Footer: React.FC = () => {
               className="hover:text-[#E5FE40] transition-colors"
             >
               LinkedIn
+            </a>
+            <span className="text-white/20">·</span>
+            <a
+              href="https://www.instagram.com/aryan_shinde1234?stkn=bGdzMXZ1a2diaGty"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-[#E5FE40] transition-colors"
+            >
+              Instagram
             </a>
             <span className="text-white/20">·</span>
             <a

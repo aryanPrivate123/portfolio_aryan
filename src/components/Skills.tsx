@@ -280,7 +280,7 @@ export const Skills: React.FC = () => {
           <div className="mt-10 pt-6 border-t border-white/10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 text-xs font-mono text-white/60">
             <div className="flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-emerald-400" />
-              <span>Full technology stack: 52 verified skills across AI, full-stack, cloud & systems</span>
+              <span>Full technology stack: {ALL_SKILLS.length} verified skills across AI, full-stack, cloud & systems</span>
             </div>
             <a
               href="#projects"

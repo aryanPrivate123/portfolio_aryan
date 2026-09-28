@@ -29,11 +29,11 @@ export const About: React.FC = () => {
               </p>
 
               <p>
-                My focus centers on architecting practical technology solutions that bridge complex machine learning models with responsive, real-world web interfaces. Whether designing real-time computer vision pipelines with MediaPipe and TensorFlow or engineering full-stack web applications with React and Next.js, I prioritize robust system logic and direct utility.
+                I enjoy working on problems where technology can have a practical impact. From building SignBridge, a computer-vision-based Indian Sign Language project, to developing fasalMitra, an AI-powered crop disease detection platform, I focus on turning technical concepts into solutions that are useful and accessible.
               </p>
 
               <p>
-                Thriving in agile hackathon environments, I leverage collaborative development practices, proactive Git workflows, and structured problem-solving to transform challenging technical briefs into production-ready software.
+                Hackathons have played an important role in my growth as a developer. Working under tight deadlines has taught me how to break down problems, make practical technical decisions, collaborate with a team, and turn an idea into a working prototype.
               </p>
             </div>
 

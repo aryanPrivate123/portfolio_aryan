@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowUpRight, Github, Linkedin, Mail, Sparkles, Terminal } from 'lucide-react';
+import { ArrowUpRight, Github, Linkedin, Instagram, Mail, Sparkles, Terminal } from 'lucide-react';
 import { ProfileImage } from './ProfileImage';
 import { MARQUEE_ITEMS } from '../data/skills';
 
@@ -89,7 +89,7 @@ export const Hero: React.FC = () => {
                 <ProfileImage />
 
                 {/* Social links directly underneath portrait */}
-                <div className="flex items-center justify-center gap-4 py-4 w-full border-t border-white/20 bg-blue-700/30 backdrop-blur-xs rounded-b-2xl">
+                <div className="flex items-center justify-center gap-3.5 py-4 w-full border-t border-white/20 bg-blue-700/30 backdrop-blur-xs rounded-b-2xl">
                   <a
                     href="https://github.com/Eclipse1911"
                     target="_blank"
@@ -108,6 +108,16 @@ export const Hero: React.FC = () => {
                   >
                     <Linkedin className="w-4 h-4" />
                     <span>LinkedIn</span>
+                  </a>
+                  <span className="text-white/40">·</span>
+                  <a
+                    href="https://www.instagram.com/aryan_shinde1234?stkn=bGdzMXZ1a2diaGty"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-1.5 text-xs font-bold text-white hover:text-[#E5FE40] transition-colors"
+                  >
+                    <Instagram className="w-4 h-4" />
+                    <span>Instagram</span>
                   </a>
                 </div>
               </div>
@@ -140,6 +150,15 @@ export const Hero: React.FC = () => {
                       aria-label="LinkedIn Profile"
                     >
                       <Linkedin className="w-4 h-4" />
+                    </a>
+                    <a
+                      href="https://www.instagram.com/aryan_shinde1234?stkn=bGdzMXZ1a2diaGty"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-8 h-8 rounded-full bg-white/20 hover:bg-white text-white hover:text-[#285CF6] flex items-center justify-center transition-all"
+                      aria-label="Instagram Profile"
+                    >
+                      <Instagram className="w-4 h-4" />
                     </a>
                   </div>
                 </div>

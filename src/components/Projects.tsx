@@ -150,16 +150,6 @@ export const Projects: React.FC = () => {
                 </div>
               </div>
 
-              {/* Aryan's Contribution */}
-              <div className="p-6 rounded-2xl bg-gradient-to-r from-blue-950/40 to-slate-900/40 border border-blue-500/20">
-                <span className="text-xs font-mono font-bold text-[#E5FE40] uppercase tracking-widest block mb-2">
-                  ARYAN'S SPECIFIC CONTRIBUTION
-                </span>
-                <p className="text-sm sm:text-base text-white/90 leading-relaxed font-normal">
-                  {selectedProject.contribution}
-                </p>
-              </div>
-
               {/* Footer Actions */}
               <div className="pt-6 border-t border-white/10 flex flex-wrap items-center justify-between gap-4">
                 <div className="flex items-center gap-3">

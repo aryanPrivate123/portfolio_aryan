@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Linkedin, Github, ArrowUpRight, Copy, Check, Send } from 'lucide-react';
+import { Mail, Linkedin, Github, Instagram, ArrowUpRight, Copy, Check, Send } from 'lucide-react';
 
 export const Contact: React.FC = () => {
   const [copied, setCopied] = useState(false);
@@ -7,6 +7,7 @@ export const Contact: React.FC = () => {
   const email = 'shindearyan1911@gmail.com';
   const linkedinUrl = 'https://www.linkedin.com/in/aryan-shinde-045441380';
   const githubUrl = 'https://github.com/Eclipse1911';
+  const instagramUrl = 'https://www.instagram.com/aryan_shinde1234?stkn=bGdzMXZ1a2diaGty';
 
   const handleCopyEmail = (e: React.MouseEvent) => {
     e.preventDefault();
@@ -78,22 +79,22 @@ export const Contact: React.FC = () => {
           </div>
 
           {/* Right Column: Connection Cards */}
-          <div className="lg:col-span-5 flex flex-col gap-4">
+          <div className="lg:col-span-5 flex flex-col gap-3.5">
             
             {/* Email Card */}
             <a
               href={`mailto:${email}`}
-              className="p-6 sm:p-7 rounded-2xl bg-white/[0.03] border border-white/10 hover:border-[#285CF6] transition-all group flex items-start justify-between"
+              className="p-5 sm:p-6 rounded-2xl bg-white/[0.03] border border-white/10 hover:border-[#285CF6] transition-all group flex items-start justify-between"
             >
               <div>
-                <div className="flex items-center gap-2 text-xs font-mono text-white/50 uppercase tracking-wider mb-2">
+                <div className="flex items-center gap-2 text-xs font-mono text-white/50 uppercase tracking-wider mb-1.5">
                   <Mail className="w-4 h-4 text-[#285CF6]" />
                   <span>DIRECT EMAIL</span>
                 </div>
-                <p className="text-lg sm:text-xl font-bold text-white group-hover:text-[#E5FE40] transition-colors break-all">
+                <p className="text-base sm:text-lg font-bold text-white group-hover:text-[#E5FE40] transition-colors break-all">
                   {email}
                 </p>
-                <span className="text-xs text-blue-300/70 mt-1 block">
+                <span className="text-xs text-blue-300/70 mt-0.5 block">
                   Click to launch mail client
                 </span>
               </div>
@@ -105,17 +106,17 @@ export const Contact: React.FC = () => {
               href={linkedinUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-6 sm:p-7 rounded-2xl bg-white/[0.03] border border-white/10 hover:border-[#285CF6] transition-all group flex items-start justify-between"
+              className="p-5 sm:p-6 rounded-2xl bg-white/[0.03] border border-white/10 hover:border-[#285CF6] transition-all group flex items-start justify-between"
             >
               <div>
-                <div className="flex items-center gap-2 text-xs font-mono text-white/50 uppercase tracking-wider mb-2">
+                <div className="flex items-center gap-2 text-xs font-mono text-white/50 uppercase tracking-wider mb-1.5">
                   <Linkedin className="w-4 h-4 text-[#285CF6]" />
                   <span>LINKEDIN NETWORK</span>
                 </div>
-                <p className="text-lg sm:text-xl font-bold text-white group-hover:text-[#E5FE40] transition-colors">
+                <p className="text-base sm:text-lg font-bold text-white group-hover:text-[#E5FE40] transition-colors">
                   Aryan Shinde
                 </p>
-                <span className="text-xs text-white/40 font-mono mt-1 block">
+                <span className="text-xs text-white/40 font-mono mt-0.5 block">
                   linkedin.com/in/aryan-shinde-045441380
                 </span>
               </div>
@@ -127,18 +128,40 @@ export const Contact: React.FC = () => {
               href={githubUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-6 sm:p-7 rounded-2xl bg-white/[0.03] border border-white/10 hover:border-[#285CF6] transition-all group flex items-start justify-between"
+              className="p-5 sm:p-6 rounded-2xl bg-white/[0.03] border border-white/10 hover:border-[#285CF6] transition-all group flex items-start justify-between"
             >
               <div>
-                <div className="flex items-center gap-2 text-xs font-mono text-white/50 uppercase tracking-wider mb-2">
+                <div className="flex items-center gap-2 text-xs font-mono text-white/50 uppercase tracking-wider mb-1.5">
                   <Github className="w-4 h-4 text-[#285CF6]" />
                   <span>GITHUB CODEBASE</span>
                 </div>
-                <p className="text-lg sm:text-xl font-bold text-white group-hover:text-[#E5FE40] transition-colors">
+                <p className="text-base sm:text-lg font-bold text-white group-hover:text-[#E5FE40] transition-colors">
                   Eclipse1911
                 </p>
-                <span className="text-xs text-white/40 font-mono mt-1 block">
+                <span className="text-xs text-white/40 font-mono mt-0.5 block">
                   github.com/Eclipse1911
+                </span>
+              </div>
+              <ArrowUpRight className="w-5 h-5 text-white/40 group-hover:text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+            </a>
+
+            {/* Instagram Card */}
+            <a
+              href={instagramUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-5 sm:p-6 rounded-2xl bg-white/[0.03] border border-white/10 hover:border-[#285CF6] transition-all group flex items-start justify-between"
+            >
+              <div>
+                <div className="flex items-center gap-2 text-xs font-mono text-white/50 uppercase tracking-wider mb-1.5">
+                  <Instagram className="w-4 h-4 text-[#285CF6]" />
+                  <span>INSTAGRAM</span>
+                </div>
+                <p className="text-base sm:text-lg font-bold text-white group-hover:text-[#E5FE40] transition-colors">
+                  @aryan_shinde1234
+                </p>
+                <span className="text-xs text-white/40 font-mono mt-0.5 block">
+                  instagram.com/aryan_shinde1234
                 </span>
               </div>
               <ArrowUpRight className="w-5 h-5 text-white/40 group-hover:text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />

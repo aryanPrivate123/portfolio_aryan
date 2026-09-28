@@ -38,7 +38,6 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       { name: 'Node.js', category: 'Web Development', tag: 'Backend Runtime' },
       { name: 'Express.js', category: 'Web Development', tag: 'Server Middleware' },
       { name: 'REST APIs', category: 'Web Development', tag: 'Service Endpoints' },
-      { name: 'Vite', category: 'Web Development', tag: 'Build Tooling' },
       { name: 'Full-Stack Development', category: 'Web Development', tag: 'End-to-End Architecture' },
       { name: 'API Integration', category: 'Web Development', tag: 'Third-Party & Internal' },
       { name: 'Responsive Web Design', category: 'Web Development', tag: 'Cross-Device UX' }
@@ -47,23 +46,14 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     id: 'ai-ml',
     title: 'AI & ML',
-    subtitle: 'Machine learning, deep neural networks, computer vision, and LLM orchestration',
+    subtitle: 'Machine learning, deep neural networks, and LLM orchestration',
     skills: [
       { name: 'Machine Learning', category: 'AI & ML', tag: 'Supervised & Unsupervised' },
       { name: 'Deep Learning', category: 'AI & ML', tag: 'Neural Networks' },
-      { name: 'Computer Vision', category: 'AI & ML', tag: 'Spatial Landmark Tracking' },
-      { name: 'Natural Language Processing', category: 'AI & ML', tag: 'Text & Semantic Processing' },
       { name: 'Generative AI', category: 'AI & ML', tag: 'Foundation Models' },
-      { name: 'AI Agents', category: 'AI & ML', tag: 'Autonomous Workflows' },
-      { name: 'RAG', category: 'AI & ML', tag: 'Retrieval-Augmented Gen' },
       { name: 'Prompt Engineering', category: 'AI & ML', tag: 'Context & Few-Shot' },
-      { name: 'LLM Applications', category: 'AI & ML', tag: 'Production Integration' },
-      { name: 'AI Automation', category: 'AI & ML', tag: 'Pipelines & Agents' },
-      { name: 'OpenCV', category: 'AI & ML', tag: 'Image & Video Processing' },
-      { name: 'MediaPipe', category: 'AI & ML', tag: 'Hand & Pose Landmarks' },
-      { name: 'Embeddings', category: 'AI & ML', tag: 'Vector Representations' },
-      { name: 'Vector Databases', category: 'AI & ML', tag: 'High-Dimensional Indexing' },
-      { name: 'Semantic Search', category: 'AI & ML', tag: 'Similarity Retrieval' }
+      { name: 'Natural Language Processing', category: 'AI & ML', tag: 'Text & Semantic Processing' },
+      { name: 'LLM Applications', category: 'AI & ML', tag: 'Production Integration' }
     ]
   },
   {
@@ -85,18 +75,14 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     id: 'tools-platforms',
     title: 'Tools & Platforms',
-    subtitle: 'Developer environments, model studios, testing, and automation systems',
+    subtitle: 'Developer environments, model studios, and version control',
     skills: [
       { name: 'Git', category: 'Tools & Platforms', tag: 'Version Control' },
       { name: 'GitHub', category: 'Tools & Platforms', tag: 'Repo & Collaboration' },
       { name: 'Google Colab', category: 'Tools & Platforms', tag: 'Cloud GPU Computing' },
       { name: 'Google AI Studio', category: 'Tools & Platforms', tag: 'Model Prototyping' },
       { name: 'Gemini API', category: 'Tools & Platforms', tag: 'Multimodal AI' },
-      { name: 'Pinecone', category: 'Tools & Platforms', tag: 'Vector Search Index' },
-      { name: 'Postman', category: 'Tools & Platforms', tag: 'API Testing & Specs' },
-      { name: 'VS Code', category: 'Tools & Platforms', tag: 'Primary IDE' },
-      { name: 'Jupyter Notebook', category: 'Tools & Platforms', tag: 'Data Science & ML' },
-      { name: 'n8n', category: 'Tools & Platforms', tag: 'Workflow Automation' }
+      { name: 'VS Code', category: 'Tools & Platforms', tag: 'Primary IDE' }
     ]
   }
 ];

@@ -95,7 +95,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
               type="button"
               onClick={() => setIsResumeOpen(true)}
               className="inline-flex items-center gap-1.5 px-4 sm:px-5 py-2 sm:py-2.5 rounded-full bg-[#E5FE40] hover:bg-[#d8f030] text-black text-xs font-bold tracking-wide uppercase transition-all duration-200 transform hover:scale-[1.03] active:scale-[0.98] shadow-md shadow-black/30 whitespace-nowrap cursor-pointer"
-              title="View Resume PDF"
+              title="View Resume"
             >
               <FileText className="w-3.5 h-3.5" />
               <span>VIEW RESUME</span>
@@ -144,7 +144,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
               className="mt-2 w-full py-2.5 px-4 rounded-xl bg-[#E5FE40] hover:bg-[#d8f030] text-black text-xs font-bold uppercase tracking-wider flex items-center justify-center gap-2 transition-colors cursor-pointer"
             >
               <FileText className="w-4 h-4" />
-              <span>VIEW RESUME PDF</span>
+              <span>VIEW RESUME</span>
             </button>
           </nav>
         </div>
